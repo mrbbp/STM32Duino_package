@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "MonTest",
+          "name": "Mon Test",
           "architecture": "STM32",
           "version": "0.0.1",
           "category": "Contributed",
