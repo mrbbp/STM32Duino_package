@@ -1,0 +1,42 @@
+{
+  "packages": [
+    {
+      "name": "mon Test Local",
+      "maintainer": "mrbbp",
+      "websiteURL": "https://github.com/mrbbp/STM32Duino_package/",
+      "email": "eric@mrbbp.com",
+      "help": {
+        "online": "http://stm32duino.org"
+      },
+      "platforms": [
+        {
+          "name": "MonTestLocal",
+          "architecture": "STM32",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/mrbbp/STM32Duino_package/"
+          },
+          "url": "file:///Users/ericchoisy-bernard/Downloads/MonTest-0.0.1.tgz",
+          "archiveFileName": "MonTest-0.0.1.tgz",
+          "checksum": "SHA-256:10bc68a9d52d7334299546fa9c4e706702b434c16cfe6b1a7bfddf35bb4e0a55",
+          "size": "4386455",
+          "boards": [{ "name": "Generic STM32F103C series" }, { "name": "Generic STM32F103C6/fake STM32F103C8" }],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
